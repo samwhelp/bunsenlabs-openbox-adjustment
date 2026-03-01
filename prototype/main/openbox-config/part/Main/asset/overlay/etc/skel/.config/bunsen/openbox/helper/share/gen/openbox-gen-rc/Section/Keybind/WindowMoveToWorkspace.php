@@ -60,6 +60,70 @@ h l
 
 
 	<!-- For [1-10] //-->
+	<keybind key="W-S-1">
+		<action name="SendToDesktop">
+			<to>1</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-2">
+		<action name="SendToDesktop">
+			<to>2</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-3">
+		<action name="SendToDesktop">
+			<to>3</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-4">
+		<action name="SendToDesktop">
+			<to>4</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-5">
+		<action name="SendToDesktop">
+			<to>5</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-6">
+		<action name="SendToDesktop">
+			<to>6</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-7">
+		<action name="SendToDesktop">
+			<to>7</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-8">
+		<action name="SendToDesktop">
+			<to>8</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-9">
+		<action name="SendToDesktop">
+			<to>9</to>
+		</action>
+	</keybind>
+
+	<keybind key="W-S-0">
+		<action name="SendToDesktop">
+			<to>10</to>
+		</action>
+	</keybind>
+
+
+<?php
+/*
+	<!-- For [1-10] //-->
 	<keybind key="W-A-1">
 		<action name="SendToDesktop">
 			<to>1</to>
@@ -119,8 +183,12 @@ h l
 			<to>10</to>
 		</action>
 	</keybind>
+*/
+?>
 
 
+<?php
+/*
 	<!-- Simple For [1-10] //-->
 	<keybind key="W-1">
 		<action name="SendToDesktop">
@@ -181,6 +249,9 @@ h l
 			<to>10</to>
 		</action>
 	</keybind>
+*/
+?>
+
 
 <?php
 /*
