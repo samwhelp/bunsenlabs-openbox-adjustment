@@ -3,6 +3,21 @@
 	<keybind key="Alt-F2">
 		<action name="Execute">
 			<startupnotify>
+				<enabled>false</enabled>
+				<name>RunDialog</name>
+			</startupnotify>
+			<command>gmrun</command>
+		</action>
+	</keybind>
+
+
+<?php
+/*
+
+
+	<keybind key="Alt-F2">
+		<action name="Execute">
+			<startupnotify>
 				<enabled>true</enabled>
 				<name>RunDialog</name>
 			</startupnotify>
@@ -10,9 +25,6 @@
 		</action>
 	</keybind>
 
-
-<?php
-/*
 
 	// https://wiki.archlinux.org/title/Compiz
 
