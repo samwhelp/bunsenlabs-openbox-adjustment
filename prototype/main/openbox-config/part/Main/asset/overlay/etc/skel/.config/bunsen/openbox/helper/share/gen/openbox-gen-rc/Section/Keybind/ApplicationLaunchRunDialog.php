@@ -1,6 +1,6 @@
 
 
-	<keybind key="Alt-F2">
+	<keybind key="A-F2">
 		<action name="Execute">
 			<startupnotify>
 				<enabled>false</enabled>
