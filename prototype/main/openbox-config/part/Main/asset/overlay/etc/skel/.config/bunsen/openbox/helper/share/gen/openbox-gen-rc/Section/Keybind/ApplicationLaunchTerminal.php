@@ -20,7 +20,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>sakura -m</command>
+			<command>xfce4-terminal</command>
 		</action>
 	</keybind>
 
@@ -30,7 +30,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>sakura -m</command>
+			<command>xfce4-terminal</command>
 		</action>
 	</keybind>
 
@@ -40,7 +40,7 @@
 				<enabled>true</enabled>
 				<name>Terminal</name>
 			</startupnotify>
-			<command>xfce4-terminal --maximize</command>
+			<command>sakura</command>
 		</action>
 	</keybind>
 
