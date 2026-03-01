@@ -16,9 +16,23 @@
 		</mousebind>
 
 		<!-- Mouse Button Right Click //-->
+<?php
+/*
 		<mousebind button="Right" action="Press">
 			<action name="ShowMenu">
 				<menu>root-menu</menu>
+			</action>
+		</mousebind>
+*/
+?>
+
+		<mousebind button="Right" action="Press">
+			<action name="Execute">
+				<startupnotify>
+					<enabled>false</enabled>
+					<name>MainMenu</name>
+				</startupnotify>
+				<command>jgmenu_run</command>
 			</action>
 		</mousebind>
 
