@@ -132,12 +132,6 @@ h l
 		</action>
 	</keybind>
 
-	<keybind key="W-C-0">
-		<action name="GoToDesktop">
-			<to>10</to>
-		</action>
-	</keybind>
-
 
 <?php
 /*

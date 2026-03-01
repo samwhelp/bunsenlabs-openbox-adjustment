@@ -114,12 +114,6 @@ h l
 		</action>
 	</keybind>
 
-	<keybind key="W-S-0">
-		<action name="SendToDesktop">
-			<to>10</to>
-		</action>
-	</keybind>
-
 
 <?php
 /*
