@@ -1,7 +1,11 @@
 
 <theme>
-	<name>Numix</name>
-	<titleLayout>NLIMC</titleLayout>
+	<name>bunsen-yaru-sage-dark</name>
+	<titleLayout>NDSLIMC</titleLayout>
+	<!--
+		<name>Numix</name>
+		<titleLayout>NLIMC</titleLayout>
+	//-->
 	<!--
 		available characters are NDSLIMC, each can occur at most once.
 		N: window icon
