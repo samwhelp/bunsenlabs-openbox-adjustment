@@ -2,12 +2,25 @@
 
 	<context name="Root">
 
+		<!-- ## ToggleShowDesktop -->
+
+<?php
+/*
 		<!-- Mouse Button Left Click //-->
 		<mousebind button="Left" action="Press">
 			<action name="ToggleShowDesktop"/>
 		</mousebind>
+*/
+?>
 
-		<!-- Menus -->
+		<!-- Mouse Button Left DoubleClick //-->
+		<mousebind button="Left" action="DoubleClick">
+			<action name="ToggleShowDesktop"/>
+		</mousebind>
+
+
+		<!-- ## Menus -->
+
 		<!-- Mouse Button Middle Click //-->
 		<mousebind button="Middle" action="Press">
 			<action name="ShowMenu">
@@ -15,9 +28,9 @@
 			</action>
 		</mousebind>
 
-		<!-- Mouse Button Right Click //-->
 <?php
 /*
+		<!-- Mouse Button Right Click //-->
 		<mousebind button="Right" action="Press">
 			<action name="ShowMenu">
 				<menu>root-menu</menu>
@@ -26,6 +39,7 @@
 */
 ?>
 
+		<!-- Mouse Button Right Click //-->
 		<mousebind button="Right" action="Press">
 			<action name="Execute">
 				<startupnotify>
@@ -33,6 +47,13 @@
 					<name>MainMenu</name>
 				</startupnotify>
 				<command>jgmenu_run</command>
+			</action>
+		</mousebind>
+
+		<!-- Alt + Mouse Button Right Click //-->
+		<mousebind button="A-Right" action="Press">
+			<action name="ShowMenu">
+				<menu>root-menu</menu>
 			</action>
 		</mousebind>
 

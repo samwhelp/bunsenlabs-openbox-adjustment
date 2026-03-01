@@ -2400,12 +2400,17 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 	<context name="Root">
 
-		<!-- Mouse Button Left Click //-->
-		<mousebind button="Left" action="Press">
+		<!-- ## ToggleShowDesktop -->
+
+
+		<!-- Mouse Button Left DoubleClick //-->
+		<mousebind button="Left" action="DoubleClick">
 			<action name="ToggleShowDesktop"/>
 		</mousebind>
 
-		<!-- Menus -->
+
+		<!-- ## Menus -->
+
 		<!-- Mouse Button Middle Click //-->
 		<mousebind button="Middle" action="Press">
 			<action name="ShowMenu">
@@ -2413,8 +2418,8 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 			</action>
 		</mousebind>
 
-		<!-- Mouse Button Right Click //-->
 
+		<!-- Mouse Button Right Click //-->
 		<mousebind button="Right" action="Press">
 			<action name="Execute">
 				<startupnotify>
@@ -2422,6 +2427,13 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 					<name>MainMenu</name>
 				</startupnotify>
 				<command>jgmenu_run</command>
+			</action>
+		</mousebind>
+
+		<!-- Alt + Mouse Button Right Click //-->
+		<mousebind button="A-Right" action="Press">
+			<action name="ShowMenu">
+				<menu>root-menu</menu>
 			</action>
 		</mousebind>
 
