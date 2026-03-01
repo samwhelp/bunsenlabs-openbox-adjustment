@@ -1,5 +1,8 @@
 
 	<application class="vlc" type="normal">
-		<desktop>5</desktop>
+		<position force="yes">
+			<x>center</x>
+			<y>center</y>
+		</position>
 		<focus>yes</focus>
 	</application>

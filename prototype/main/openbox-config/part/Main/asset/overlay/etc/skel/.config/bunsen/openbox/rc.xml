@@ -2576,6 +2576,21 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 
 
+	<application name="bl-exit">
+		<decor>no</decor>
+		<focus>yes</focus>
+		<layer>above</layer>
+	</application>
+
+	<application name="obconf">
+		<size>
+			<width>33%</width>
+			<height>50%</height>
+		</size>
+	</application>
+
+
+
 	<application class="pcmanfm-qt" type="normal">
 		<desktop>1</desktop>
 		<focus>yes</focus>
@@ -2696,6 +2711,14 @@ sudo cp clicksnap /usr/local/bin/clicksnap
 
 	<application class="Xephyr" type="normal">
 		<desktop>5</desktop>
+		<focus>yes</focus>
+	</application>
+
+	<application class="vlc" type="normal">
+		<position force="yes">
+			<x>center</x>
+			<y>center</y>
+		</position>
 		<focus>yes</focus>
 	</application>
 

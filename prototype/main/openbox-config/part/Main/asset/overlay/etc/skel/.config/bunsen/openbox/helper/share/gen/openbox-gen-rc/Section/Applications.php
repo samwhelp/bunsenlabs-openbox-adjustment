@@ -101,6 +101,10 @@
 <?php //include_once(__DIR__ . '/Applications/NormalNoDecorations.php'); ?>
 
 
+<?php include_once(__DIR__ . '/Rule/Bl-Exit.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Obconf.php'); ?>
+
+
 <?php // 1:File ?>
 <?php include_once(__DIR__ . '/Rule/Pcmanfm-qt.php'); ?>
 <?php include_once(__DIR__ . '/Rule/Pcmanfm.php'); ?>
@@ -141,7 +145,7 @@
 <?php // 5:Misc ?>
 <?php include_once(__DIR__ . '/Rule/Xephyr.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Mpv.php'); ?>
-<?php //include_once(__DIR__ . '/Rule/Vlc.php'); ?>
+<?php include_once(__DIR__ . '/Rule/Vlc.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Smplayer.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Audacious.php'); ?>
 <?php //include_once(__DIR__ . '/Rule/Libreoffice.php'); ?>
