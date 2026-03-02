@@ -153,7 +153,7 @@ h l
 			</finalactions>
 		</action>
 	</keybind>
-	
+
 	<keybind key="W-grave">
 		<action name="PreviousWindow">
 			<finalactions>
@@ -184,7 +184,7 @@ h l
 				<action name="Unshade"/>
 			</finalactions>
 		</action>
-	</keybind>	
+	</keybind>
 
 
 
