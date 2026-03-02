@@ -41,6 +41,6 @@
 				<enabled>true</enabled>
 				<name>TextEditor</name>
 			</startupnotify>
-			<command>mousepad</command>
+			<command>geany</command>
 		</action>
 	</keybind>
