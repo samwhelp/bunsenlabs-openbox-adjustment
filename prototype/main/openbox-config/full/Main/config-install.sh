@@ -152,6 +152,73 @@ sudo_util_copy_from_srcdir_to_desdir () {
 
 
 ################################################################################
+### Head: Model / Service
+##
+
+xfce_config_run_pre () {
+
+	xfce_service_stop
+
+
+	return 0
+
+}
+
+xfce_config_run_post () {
+
+	xfce_service_start
+
+
+	return 0
+
+}
+
+xfce_service_stop () {
+
+	xfce_service_stop_xfconfd
+
+	#xfce_service_stop_xfsettingsd
+
+
+	return 0
+
+}
+
+xfce_service_stop_xfconfd () {
+
+	if killall -9 xfconfd; then
+		return 0
+	fi
+
+
+	return 0
+
+}
+
+xfce_service_stop_xfsettingsd () {
+
+	if killall -9 xfsettingsd; then
+		return 0
+	fi
+
+
+	return 0
+
+}
+
+xfce_service_start () {
+
+
+	return 0
+
+}
+
+##
+### Head: Model / Service
+################################################################################
+
+
+################################################################################
 ### Head: Model / model_config_install
 ##
 
@@ -169,9 +236,11 @@ mod_config_install_home () {
 
 model_config_install () {
 
+	xfce_config_run_pre
 
 	mod_config_install_home
 
+	xfce_config_run_post
 
 	return 0
 }
