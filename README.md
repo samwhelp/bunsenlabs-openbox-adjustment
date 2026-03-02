@@ -13,7 +13,18 @@
 
 ## Subject
 
+* [Script](#script)
 * [Link](#link)
+
+
+
+
+## Script
+
+| Script |
+| ------ |
+| [openbox-config](https://github.com/samwhelp/bunsenlabs-openbox-adjustment/tree/main/prototype/main/openbox-config)
+| [tool-config](https://github.com/samwhelp/bunsenlabs-adjustment/tree/main/prototype/main/tool-config) |
 
 
 
@@ -22,5 +33,14 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [Archcraft Openbox Adjustment](https://samwhelp.github.io/archcraft-openbox-adjustment/) | [GitHub](https://github.com/samwhelp/archcraft-openbox-adjustment) |
+| [Openbox Adjustment](https://samwhelp.github.io/openbox-adjustment/) | [GitHub](https://github.com/samwhelp/openbox-adjustment) |
+| [Debian Openbox Adjustment](https://samwhelp.github.io/debian-openbox-adjustment/) | [GitHub](https://github.com/samwhelp/debian-openbox-adjustment) |
 | [Mabox Openbox Adjustment](https://samwhelp.github.io/mabox-openbox-adjustment/) | [GitHub](https://github.com/samwhelp/mabox-openbox-adjustment) |
+| [Archcraft Openbox Adjustment](https://samwhelp.github.io/archcraft-openbox-adjustment/) | [GitHub](https://github.com/samwhelp/archcraft-openbox-adjustment) |
+
+
+
+
+## Samwhelp
+
+* [GitHub](https://github.com/samwhelp)
