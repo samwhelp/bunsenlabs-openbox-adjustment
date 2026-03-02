@@ -1704,6 +1704,7 @@ h l
 
 
 
+
 	<!-- ## Volume Control //-->
 	<keybind key="A-S-v">
 		<action name="Execute">
@@ -1711,10 +1712,9 @@ h l
 				<enabled>true</enabled>
 				<name>VolumeControl</name>
 			</startupnotify>
-			<command>mate-volume-control</command>
+			<command>pavucontrol</command>
 		</action>
 	</keybind>
-
 
 	<keybind key="A-m">
 		<action name="Execute">

@@ -105,7 +105,7 @@ openbox)
     bl-compositor --start
 
     ## Start the Conky session (the default conkyrc will run if no sessions have been set)
-    bl-conky-session &
+    #bl-conky-session &
 
     ## Start the panel
 

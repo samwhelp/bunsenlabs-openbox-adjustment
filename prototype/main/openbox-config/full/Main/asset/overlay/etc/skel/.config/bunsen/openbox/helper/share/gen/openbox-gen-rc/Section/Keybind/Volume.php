@@ -1,5 +1,7 @@
 
 
+<?php
+/*
 	<!-- ## Volume Control //-->
 	<keybind key="A-S-v">
 		<action name="Execute">
@@ -10,7 +12,19 @@
 			<command>mate-volume-control</command>
 		</action>
 	</keybind>
+*/
+?>
 
+	<!-- ## Volume Control //-->
+	<keybind key="A-S-v">
+		<action name="Execute">
+			<startupnotify>
+				<enabled>true</enabled>
+				<name>VolumeControl</name>
+			</startupnotify>
+			<command>pavucontrol</command>
+		</action>
+	</keybind>
 
 	<keybind key="A-m">
 		<action name="Execute">
